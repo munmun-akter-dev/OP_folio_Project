@@ -1,0 +1,1784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@400..800&display=swap"
+    rel="stylesheet" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+
+
+
+  <!-- other library -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+
+
+  <title>Index Page</title>
+</head>
+
+<body>
+  <!-- HEADER SECTION START -->
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/op_nav_img.png" alt="image" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-center ms-auto me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <div class="top_btn">
+            <a href="#" download="./assets/images/hero_men_img.png"><button class="btn btn_primary">
+                <span class="btn_white_txt">Download CV</span>
+              </button></a>
+          </div>
+          <div class="bottom_line"></div>
+        </div>
+      </div>
+    </nav>
+    <div class="nav_border"></div>
+  </header>
+
+  <!-- HEADER SECTION END -->
+
+  <!-- HERO SECTION START -->
+  <section class="hero position-relative">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <div class="hero_left_side position-relative ">
+            <h1 class="hero_head position-absolute ">
+              Rosalina <br class=" d-none d-lg-block">
+              William
+            </h1>
+
+
+            <img class="img-fluid" src="./assets/images/hero_left_img.png" alt="" />
+
+            <div class="hero_cercle_parent position-absolute d-none d-lg-block">
+              <div class="hero_circle_button position-relative">
+                <img class="img-fluid " src="./assets/images/hero_gray_circle_img.png" alt="" />
+              </div>
+              <div class="orange_circle position-absolute">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                    fill="none">
+                    <g clip-path="url(#clip0_153_1479)">
+                      <path d="M20 1.42857L20 38.5714M20 38.5714L10 28.5714M20 38.5714L30 28.5714" stroke="white"
+                        stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_153_1479">
+                        <rect width="40" height="40" fill="white" transform="translate(40 40) rotate(-180)" />
+                      </clipPath>
+                    </defs>
+                  </svg></a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="hero_right_side">
+            <h2 class="hero_right_side_head">
+              Based in USA I'm <br>
+              UI/UX Designer
+
+            </h2>
+            <p class="hero_right_pera">
+              It's certainly no way to get noticed in today's <br> marketplace. Quality
+              content marketing is what it
+              <br> takes to
+              make a modern brand truly shine.
+
+            </p>
+
+            <div class="hero_right_side_btn">
+              <a href="#"><button class="btn btn_secondary">
+                  <span class="btn_white_txt">VIEW MY WORKS</span>
+                </button></a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Marquee Start -->
+  <section class="marquee_parent" style="overflow-x: hidden;">
+    <div class="marqueeContainer bg-dark">
+      <div class="marquee d-flex flex-nowrap gap-5">
+
+
+        <div class="marque_items d-flex flex-shrink-0 justify-content-between gap-5">
+
+
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+
+
+        </div>
+
+        <div class="marque_items d-flex flex-shrink-0 justify-content-between gap-5">
+
+
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img.png" alt="Star">
+            <p>discuss your ideas</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img2.png" alt="Star">
+            <p>enjoy the result</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <img src="assets/images/line_img3.png" alt="Star">
+            <p>realise your ideas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Marquee End -->
+
+
+  <!-- HERO SECTION END -->
+
+  <!-- style="overflow-x: hidden;" -->
+
+  <!-- ABOUT ME SECTION START -->
+  <section class="about_me section_padding">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="about_me_left_side">
+            <h6 class="about_me_head">About Me
+              <img src="./assets/images/about_me_line.png" alt="">
+
+            </h6>
+            <h3 class="about_me_left_heading">
+              You can't use up creativity. <br class="d-none d-lg-block">
+              The more you use, the more <br class="d-none d-lg-block">
+              have in your signifant mind.
+
+            </h3>
+            <p class="about_me_pera">
+              Does any industry face a more complex audience journey and marketing <br class="d-none d-lg-block"> sales
+              process than B2B
+              technology?
+              Consider the number of people who <br class="d-none d-lg-block"> influence a sale, the length of the
+              decision-making cycle, the
+              competing <br class="d-none d-lg-block">
+              interests of the people who purchase, implement, manage, and use the <br class="d-none d-lg-block">
+              technology. It's a lot
+              meaningful
+              content here.
+
+            </p>
+
+
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 ">
+          <div class="about_me_right_side">
+            <h4 class="about_me_right_heading">
+              Any Type Of Query <br class="d-none d-lg-block">
+              & Discussion.
+
+
+            </h4>
+            <p class="about_me_right_pera">
+              let’s talk with me
+            </p>
+            <div class=" info_parent d-flex ">
+
+
+              <h5 class="about_me_info">
+                info@hexbo.com
+
+              </h5>
+              <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43"
+                  fill="none">
+                  <path
+                    d="M38.6998 21.5L39.7146 22.5148L40.7266 21.5L39.7146 20.4852L38.6998 21.5ZM37.685 20.4852L26.2184 31.9519L28.248 33.9815L39.7146 22.5148L37.685 20.4852ZM39.7146 20.4852L28.248 9.01855L26.2184 11.0482L37.685 22.5148L39.7146 20.4852ZM38.6998 20.0667L2.86649 20.0667L2.86649 22.9334L38.6998 22.9334L38.6998 20.0667Z"
+                    fill="#FF4900" />
+                </svg></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ABOUT ME SECTION END -->
+
+  <!-- SERVICE OFFER SECTION START -->
+
+  <section class="service_offer bg_service_offer ptb" style="overflow-x: hidden;">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6">
+          <div class="service_offer_left_side">
+            <h2 class="service_offer_head">
+              Services I <br class="d-none d-lg-block">
+              Offer
+            </h2>
+            <p class="service_offer_pera">I help ambitios business like your, generate more profits <br
+                class="d-none d-lg-block"> by building
+              awareness, driving web trafic,
+              connecting <br class="d-none d-lg-block"> with customer and growing overal sales.
+            </p>
+
+
+            <div class="projects_group_parent d-flex  ">
+
+              <div class="project_child_one">
+
+                <h4 class="project_number"> 1600+
+                </h4>
+                <p class="project_pera">
+                  Succesfully <br class="d-none d-lg-block">
+                  developed projects
+
+                </p>
+
+              </div>
+
+              <div class="project_child_tow">
+
+                <h4 class="project_number"> 85%
+
+                </h4>
+                <p class="project_pera">
+                  Satisfied with our <br class="d-none d-lg-block">service customers
+                </p>
+              </div>
+
+
+              <div class="project_child_three">
+
+                <h4 class="project_number"> 4.7
+                </h4>
+                <p class="project_pera">
+                  average rating of <br class="d-none d-lg-block">
+                  our projects
+
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="service_offer_right_side">
+
+            <ul class="service_items">
+              <a href="./portfolio_details.html">
+
+                <li class="service_items_childs  position-relative">
+
+                  <h4 class="forth_heading">Branding</h4>
+
+                  <div class=" service_content d-flex ">
+                    <p class="service_right_pera">I start by learn and research based on client <br>and resource to gain
+                      about the needs.</p>
+                    <div class="icon_parent flex-shrink-0">
+                      <img src="./assets/images/Icon.png" alt="">
+                    </div>
+                  </div>
+
+                  <div class="hover_img position-absolute">
+
+                    <img class="img-fluid" src="./assets/images/ux_ui_right.png" alt="">
+                  </div>
+
+                </li>
+              </a>
+
+              <li class=" service_items_childs position-relative">
+                <a href="./portfolio_details.html">
+
+                  <h4 class="forth_heading">UX/UI Design</h4>
+
+
+                  <div class=" service_content d-flex ">
+                    <p class="service_right_pera">I start by learn and research based on client <br>and resource to gain
+                      about the needs.</p>
+                    <div class="icon_parent">
+                      <img src="./assets/images/Icon.png" alt="">
+                    </div>
+                  </div>
+                </a>
+
+              </li>
+              <li class=" service_items_childs  position-relative">
+                <a href="./portfolio_details.html">
+
+                  <h4 class="forth_heading">3D Design</h4>
+
+
+                  <div class=" service_content d-flex ">
+                    <p class="service_right_pera">I start by learn and research based on client <br>and resource to gain
+                      about the needs.</p>
+                    <div class="icon_parent">
+                      <img src="./assets/images/Icon.png" alt="">
+                    </div>
+                  </div>
+                </a>
+
+
+              </li>
+              <li class=" service_items_childs  position-relative">
+                <a href="./portfolio_details.html">
+
+
+                  <h4 class="forth_heading">Motion Design</h4>
+
+
+
+                  <div class=" service_content d-flex ">
+                    <p class="service_right_pera">I start by learn and research based on client <br>and resource to gain
+                      about the needs.</p>
+                    <div class="icon_parent">
+                      <img src="./assets/images/Icon.png" alt="">
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- SERVICE OFFER SECTION END -->
+
+
+  <!-- /* PRORTFOLIO SECTION START */ -->
+
+  <section class="portfolio section_padding" style="overflow-x: hidden;">
+    <div class="container">
+
+
+      <!-- ................ITEMS......... -->
+
+      <div class="row  colam_parent">
+
+        <div class="col-lg-6 p-0 ">
+          <div class="portfolio_left_img_side">
+            <img class="img-fluid w-100 " src="./assets/images/digital_future_img.png" alt="">
+
+          </div>
+
+
+        </div>
+
+
+        <div class="col-lg-6 ">
+
+          <div class="portfolio_right_content_side">
+
+            <div class="portfolio_btn">
+              <a href="#"><button class="btn btn_primary">
+                  <span class="btn_blue_txt">VIEW MY WORKS</span>
+                </button></a>
+            </div>
+            <h3 class="portfolio_head">
+              DiCoin- Crypto <br> Dashboard Design
+            </h3>
+            <p class="portfolio_pera">
+              Crypto Dashboard Design Holisticly fabricate <br> opencatalyst to after top-line catalysts for change.
+              <br>
+            </p>
+
+            <div class="recent_arrow_blue">
+              <a href="./portfolio.html">
+
+                <img class="img-fluid" src="./assets/images/right_arrow.png" alt="">
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+
+
+      </div>
+
+
+
+
+      <!-- ................ITEMS......... -->
+
+      <div class="row  colam_parent">
+
+
+        <div class="col-lg-6 d-none d-lg-block">
+
+
+          <div class="portfolio_left_content_side">
+
+            <div class="portfolio_btn">
+              <a href="#"><button class="btn btn_primary">
+                  <span class="btn_green_txt">VIEW MY WORKS</span>
+                </button></a>
+            </div>
+            <h3 class="portfolio_head">
+              Food Recipe - APP Design
+            </h3>
+            <p class="portfolio_pera">
+              Embark on a culinary journey like never before with <br>Culinary Creations, the ultimate food recipe app
+              <br> that
+              brings the joy of cooking right.
+            </p>
+
+            <div class="recent_arrow_green">
+              <a href="./portfolio.html">
+
+                <img class="img-fluid " src="./assets/images/right_arrow.png" alt="">
+              </a>
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+        <div class="col-lg-6 p-0">
+          <div class="portfolio_right_img_side">
+            <img class="img-fluid ms-auto w-100 " src="./assets/images/food_recipe_img.png" alt="">
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-lg-none d-block">
+
+
+          <div class="portfolio_left_content_side">
+
+            <div class="portfolio_btn">
+              <a href="#"><button class="btn btn_primary">
+                  <span class="btn_green_txt">VIEW MY WORKS</span>
+                </button></a>
+            </div>
+            <h3 class="portfolio_head">
+              Food Recipe - APP Design
+            </h3>
+            <p class="portfolio_pera">
+              Embark on a culinary journey like never before with <br>Culinary Creations, the ultimate food recipe app
+              <br> that
+              brings the joy of cooking right.
+            </p>
+
+            <div class="recent_arrow_green">
+              <a href="./portfolio.html">
+
+                <img class="img-fluid" src="./assets/images/right_arrow.png" alt="">
+              </a>
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+
+      <!-- ................ITEMS......... -->
+      <div class="row  colam_parent  ">
+
+        <div class="col-lg-6 p-0  ">
+          <div class="portfolio_left_img_side">
+            <img class="img-fluid w-100" src="./assets/images/live_score_app_img.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="portfolio_right_content_side">
+
+            <div class="portfolio_btn">
+              <a href="#"><button class="btn btn_primary">
+                  <span class="btn_yellow_txt">VIEW MY WORKS</span>
+                </button></a>
+            </div>
+            <h3 class="portfolio_head">
+              Live Score App <br>
+              Design
+            </h3>
+            <p class="portfolio_pera">
+              Designing a live score app involves considering <br> various aspects to create a user-friendly and <br>
+              visually
+              appealing interface.
+            </p>
+
+            <div class="recent_arrow_yellow">
+              <a href="./portfolio.html">
+
+                <img class="img-fluid" src="./assets/images/black_arrow.png" alt="">
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+        <!-- ................ITEMS......... -->
+
+
+        <!-- ................ITEMS......... -->
+
+
+      </div>
+
+      <!-- ................ITEMS......... -->
+
+      <div class="row  colam_parent">
+
+
+        <div class="col-lg-6  d-none d-lg-block">
+
+
+          <div class="portfolio_left_content_side">
+
+            <div class="portfolio_btn">
+              <a href="#"><button class="btn btn_primary">
+                  <span class="btn_purple_txt">VIEW MY WORKS</span>
+                </button></a>
+            </div>
+            <h3 class="portfolio_head">
+              Yatch Maintanence <br>
+              Website Design
+            </h3>
+            <p class="portfolio_pera">
+              Designing a yacht maintenance website requires <br>
+              a combination of aesthetic appeal, user-friendly <br>
+              navigation, and informative content.
+            </p>
+
+            <div class="recent_arrow_purple">
+              <a href="./portfolio.html">
+
+                <img class="img-fluid" src="./assets/images/right_arrow.png" alt="">
+              </a>
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <div class="col-lg-6">
+          <div class="portfolio_right_img_side">
+            <img class="img-fluid ms-auto w-100" src="./assets/images/expert_yacht_img.png" alt="">
+
+          </div>
+        </div>
+        <div class="col-lg-6  d-lg-none d-block">
+          <div class="portfolio_left_content_side">
+            <div class="portfolio_btn">
+              <a href="#"><button class="btn btn_primary">
+                  <span class="btn_purple_txt">VIEW MY WORKS</span>
+                </button></a>
+            </div>
+            <h3 class="portfolio_head">
+              Yatch Maintanence <br>
+              Website Design
+            </h3>
+            <p class="portfolio_pera">
+              Designing a yacht maintenance website requires <br>
+              a combination of aesthetic appeal, user-friendly <br>
+              navigation, and informative content.
+            </p>
+            <div class="recent_arrow_purple">
+              <a href="./portfolio.html">
+                <img class="img-fluid" src="./assets/images/right_arrow.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio_lower_btn">
+        <a href="#"><button class="btn btn_secondary">
+            <span class="btn_white_txt">View All Project</span>
+          </button></a>
+      </div>
+    </div>
+
+  </section>
+  <!-- ................ITEMS......... -->
+
+  <!-- /* PRORTFOLIO SECTION END */ -->
+
+
+  <!-- MY EXPERTISE SECTION START -->
+
+
+
+  <section class="my_expertise" style="overflow-x: hidden;">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="my_expertise_parent">
+          <h2 class="my_expertise_head">
+
+            My Expertise
+          </h2>
+
+
+          <ul class="service_items">
+
+
+            <li class="service_items_child d-flex  justify-content-between position-relative">
+
+              <h4 class="service_forth_heading">01.UI/UX Design</h4>
+              <p class="my_expertise_items_pera">
+
+                Art direction is a creative and strategic role in <br> various fields such as advertising, design, film,
+                <br>
+                fashion, and other visual arts.
+              </p>
+
+              <a href="./portfolio.html">
+                <div class=" service_icon_parent">
+                  <img src="./assets/images/white_right_arrow.png" alt="">
+                </div>
+              </a>
+
+
+              <div class="hover_img position-absolute">
+
+                <img class="img-fluid" src="./assets/images/art_der_hover_img.png" alt="">
+              </div>
+
+              <!-- <h4 class="service_forth_heading">01.UI/UX Design</h4>
+
+              <p class="my_expertise_items_pera">
+
+                Designing a yacht maintenance website <br class="d-none d-block">requires a combination of
+                aesthetic appeal, <br class="d-none d-lg-block"> user-friendly
+                navigation, and informative <br class="d-none d-lg-block">content.
+              </p>
+
+
+              <a href="./portfolio.html">
+
+                <div class="icon_parent">
+                  <img src="./assets/images/white_right_arrow.png" alt="">
+                </div>
+              </a>
+
+              <div class="hover_img position-absolute">
+
+                <img class="img-fluid" src="./assets/images/expertise_hover_img.png" alt="">
+              </div> -->
+            </li>
+
+
+            <li class=" service_items_child d-flex justify-content-between position-relative">
+
+
+              <h4 class="service_forth_heading">02.Art Direction</h4>
+              <p class="my_expertise_items_pera">
+
+                Art direction is a creative and strategic role in <br> various fields such as advertising, design, film,
+                <br>
+                fashion, and other visual arts.
+              </p>
+
+              <a href="./portfolio.html">
+                <div class="service_icon_parent">
+                  <img src="./assets/images/white_right_arrow.png" alt="">
+                </div>
+              </a>
+
+
+              <div class="hover_img position-absolute">
+
+                <img class="img-fluid" src="./assets/images/art_der_hover_img.png" alt="">
+              </div>
+
+            </li>
+
+
+            <li class=" service_items_child d-flex justify-content-between position-relative">
+
+
+              <h4 class="service_forth_heading">03.Brand Identity</h4>
+
+
+
+              <p class="my_expertise_items_pera">
+
+                Art direction is a creative and strategic role in <br> various fields such as advertising, design, film,
+                <br>
+                fashion, and other visual arts.
+              </p>
+
+
+              <a href="./portfolio.html">
+                <div class="service_icon_parent">
+                  <img src="./assets/images/white_right_arrow.png" alt="">
+                </div>
+              </a>
+
+
+              <div class="hover_img position-absolute">
+
+                <img class="img-fluid" src="./assets/images/art_der_hover_img.png" alt="">
+              </div>
+
+            </li>
+
+
+
+            <li class=" service_items_child d-flex justify-content-between position-relative">
+
+
+              <h4 class="service_forth_heading">04. Design System</h4>
+
+              <p class="my_expertise_items_pera">
+
+                Art direction is a creative and strategic role in <br> various fields such as advertising, design, film,
+                <br>
+                fashion, and other visual arts.
+              </p>
+
+
+
+              <a href="./portfolio.html">
+                <div class="service_icon_parent">
+                  <img src="./assets/images/white_right_arrow.png" alt="">
+                </div>
+              </a>
+
+
+              <div class="hover_img position-absolute">
+
+                <img class="img-fluid" src="./assets/images/art_der_hover_img.png" alt="">
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- MY EXPERTISE SECTION END -->
+
+
+
+  <!-- TRUSTEDPARTNER SECTION START -->
+
+
+
+  <section class="trusted bg_org" style="overflow-x: hidden;">
+    <div class="container">
+      <div class="row">
+        <div class="trusted_parent">
+          <h3>Trusted Partner’s</h3>
+          <div class="trusted_img_group">
+
+            <div class="marquee_parent" style="overflow-x: hidden;">
+              <div class=" marqueeContainer">
+
+                <div class="marquee d-flex flex-nowrap gap-5">
+
+
+                  <div class="marque_items d-flex flex-shrink-0 justify-content-between gap-5">
+
+
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img4.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img1.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img1.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img4.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img5.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img6.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img4.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img6.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img4.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img3.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img6.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img3.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img6.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img3.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img1.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img3.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+
+
+
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img4.png" alt="">
+
+                    </div>
+                  </div>
+
+                  <div class="marque_items d-flex flex-shrink-0 justify-content-between gap-5">
+
+
+                    <!-- <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div> -->
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img6.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img5.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img3.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img3.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img6.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img5.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img3.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img5.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img6.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img5.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img6.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img3.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img6.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img3.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img5.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img6.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img5.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img2.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img3.png" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="./assets/images/trst_img1.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  <img src="./assets/images/trst_img6.png" alt="">
+            <img src="./assets/images/trst_img2.png" alt="">
+            <img src="./assets/images/trst_img3.png" alt="">
+            <img src="./assets/images/trst_img4.png" alt="">
+            <img src="./assets/images/trst_img5.png" alt="">
+            <img src="./assets/images/trst_img6.png" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TRUSTEDPARTNER SECTION END -->
+
+
+
+
+  <!-- TESTIMONIAL SECTION START -->
+
+
+  <section class="testimonial" style="overflow-x: hidden;">
+    <div class="container_fluid">
+
+
+      <div class="row slide d-flex  align-items-center">
+
+
+        <div class="testimonial_parent">
+
+          <h3>Our Testimonials</h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="mySliderFile" style="overflow-x: hidden;">
+    <div>
+      <div class="testimonial_parent">
+
+        <div class="testimonial_items_parent">
+          <div class="test_items_child">
+            <img class="img-fluid" src="./assets/images/testimonial_img.png" alt="">
+            <p class="testimonial_pera">
+              I can't speak highly enough about the exceptional service <br> provided by Emtiaj. Their innovative
+              solutions
+              and attention <br> to client needs exceeded my expectations. The team's <br> dedication and enthusiasm
+              made the
+              entire process <br> enjoyable, and the final outcome was beyond amazing. "
+            </p>
+            <div class="testimonial_bottom_parent ">
+              <img class="img-fluid" src="./assets/images/testimonial_left_arrow_img.png" alt="">
+              <div>
+                <img src="./assets/images/testimonial_left_img.png" alt="">
+              </div>
+              <img class="img-fluid" src="./assets/images/testimonial_right_arrow.png" alt="">
+            </div>
+
+            <p class="test_child_pera_one">
+              john smith
+
+            </p>
+
+            <p class="test_child_pera_two">
+              Founder of Awesomeux Technology
+
+            </p>
+
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <div>
+      <div class="testimonial_parent">
+
+        <div class="testimonial_items_parent ">
+
+
+          <div class="test_items_child">
+            <img class="img-fluid" src="./assets/images/testimonial_img.png" alt="">
+            <p class="testimonial_pera">
+              I can't speak highly enough about the exceptional service <br class="d-none d-lg-block"> provided by
+              Emtiaj. Their innovative
+              solutions
+              and attention <br class="d-none d-lg-block"> to client needs exceeded my expectations. The team's <br
+                class="d-none d-lg-block"> dedication and enthusiasm
+              made the
+              entire process <br class="d-none d-lg-block"> enjoyable, and the final outcome was beyond amazing. "
+            </p>
+
+
+            <div class="testimonial_bottom_parent ">
+              <img class="img-fluid" src="./assets/images/testimonial_left_arrow_img.png" alt="">
+              <div>
+                <img src="./assets/images/testimonial_men_img.png" alt="">
+              </div>
+              <img class="img-fluid" src="./assets/images/testimonial_right_arrow.png" alt="">
+            </div>
+
+
+
+            <p class="test_child_pera_one">
+              DAVID wAIN
+
+            </p>
+
+            <p class="test_child_pera_two">
+              Founder of Studioux Technology
+            </p>
+
+
+
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <div>
+      <div class="testimonial_parent">
+
+        <div class="testimonial_items_parent ">
+          <div class="test_items_child">
+            <img class="img-fluid" src="./assets/images/testimonial_img.png" alt="">
+            <p class="testimonial_pera">
+              I can't speak highly enough about the exceptional service <br> provided by Emtiaj. Their innovative
+              solutions
+              and attention <br> to client needs exceeded my expectations. The team's <br> dedication and enthusiasm
+              made the
+              entire process <br> enjoyable, and the final outcome was beyond amazing. "
+            </p>
+            <div class="testimonial_bottom_parent ">
+              <img class="img-fluid" src="./assets/images/testimonial_left_arrow_img.png" alt="">
+              <div>
+                <img src="./assets/images/testimonial_right_img.png" alt="">
+              </div>
+              <img class="img-fluid" src="./assets/images/testimonial_right_arrow.png" alt="">
+            </div>
+            <p class="test_child_pera_one">
+              Emily Waong
+            </p>
+            <p class="test_child_pera_two">
+              Founder of Creative Technology
+
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div>
+      <div class="testimonial_parent">
+
+        <div class="testimonial_items_parent ">
+          <div class="test_items_child">
+            <img class="img-fluid" src="./assets/images/testimonial_img.png" alt="">
+            <p class="testimonial_pera">
+              I can't speak highly enough about the exceptional service <br> provided by Emtiaj. Their innovative
+              solutions
+              and attention <br> to client needs exceeded my expectations. The team's <br> dedication and enthusiasm
+              made the
+              entire process <br> enjoyable, and the final outcome was beyond amazing. "
+            </p>
+            <div class="testimonial_bottom_parent ">
+              <img class="img-fluid" src="./assets/images/testimonial_left_arrow_img.png" alt="">
+              <div>
+                <img src="./assets/images/testimonial_left_img.png" alt="">
+              </div>
+              <img class="img-fluid" src="./assets/images/testimonial_right_arrow.png" alt="">
+            </div>
+
+            <p class="test_child_pera_one">
+              john smith
+
+            </p>
+
+            <p class="test_child_pera_two">
+              Founder of Awesomeux Technology
+
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="testimonial_parent">
+
+        <div class="testimonial_items_parent ">
+
+
+          <div class="test_items_child">
+            <img class="img-fluid" src="./assets/images/testimonial_img.png" alt="">
+            <p class="testimonial_pera">
+              I can't speak highly enough about the exceptional service <br> provided by Emtiaj. Their innovative
+              solutions
+              and attention <br> to client needs exceeded my expectations. The team's <br> dedication and enthusiasm
+              made the
+              entire process <br> enjoyable, and the final outcome was beyond amazing. "
+            </p>
+
+
+            <div class="testimonial_bottom_parent ">
+              <img class="img-fluid" src="./assets/images/testimonial_left_arrow_img.png" alt="">
+              <div>
+                <img src="./assets/images/testimonial_men_img.png" alt="">
+              </div>
+              <img class="img-fluid" src="./assets/images/testimonial_right_arrow.png" alt="">
+            </div>
+
+
+
+            <p class="test_child_pera_one">
+              DAVID wAIN
+
+            </p>
+
+            <p class="test_child_pera_two">
+              Founder of Studioux Technology
+            </p>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- TESTIMONIAL SECTION END -->
+
+
+  <!-- BOOK A CALL SECTION START -->
+
+  <section class="book_a_call">
+
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="book_a_call_parent">
+
+          <h3 class="book_a_call_head">
+            Book A Call
+          </h3>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-5">
+
+          <div class="book_a_call_left_side_parent">
+
+
+            <img class="img-fluid" src="./assets/images/book_a_call_left_img.png" alt="">
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-7">
+
+          <div class="book_a_call_right_side">
+
+            <div class="book_item">
+
+              <h4 class="book_item_head">
+                Name
+              </h4>
+
+              <input class="book" type="text" placeholder="Enter your first name">
+
+            </div>
+
+
+
+            <div class="book_item">
+
+              <h4 class="book_item_head">
+                Email
+              </h4>
+
+              <input class="book" type="text" placeholder="Enter your email address">
+
+            </div>
+
+
+            <div class="book_item ">
+
+              <h4 class="book_item_head">
+                I’m Interested In
+              </h4>
+              <!-- <input class="book" type="text" placeholder="Please select an option"> -->
+
+              <div><select id="book" name="cars">
+
+                  <option value="saab">Please select an option</option>
+                  <option value="mercedes">01. UI/UX Design</option>
+                  <option value="audi">02. Art Direction</option>
+                  <option value="audi"> 03. Brand identity</option>
+                  <option value="audi">04. Design System</option>
+                </select></div>
+
+            </div>
+
+
+            <div class="book_item">
+
+              <h4 class="book_item_head">
+                Message
+              </h4>
+
+              <input class="book" type="text" placeholder="Enter your first name">
+
+            </div>
+
+            <div class="book_a_call_bottom_btn">
+              <a href="#"><button class="btn btn_primary">
+                  <span class="btn_white_txt">Send</span>
+                </button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+  </section>
+  <!-- BOOK A CALL SECTION END -->
+
+
+  <!-- FOOTER SECTION START -->
+
+  <section class="footer">
+    <div class="footer_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <p class="footer_pera">Passionate about creating user-centric designs that transform ideas into exceptional
+              digital experiences.
+            </p>
+
+            <h2 class="footer_head">Let’s Chat</h2>
+            <p class="footer_bottom">Opfolio© 2023, All Rights Reserved</p>
+
+          </div>
+
+          <div class="col-lg-4">
+            <ul class="footer_items">
+              <li><a href="./about_us.html">About Us</a></li>
+              <li><a href="./consultancy.html"> Contact</a></li>
+              <li><a href="./brand_protection.html"> Blog</a></li>
+              <li><a href="./our_product.html"> Policy</a></li>
+              <li><a href="./our_product.html"> Refund</a></li>
+            </ul>
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class=" footer_right_parent  ">
+              <h5 class="footer_right_head"><span class="org">opfolio</span>@example.com</h5>
+              <p class="footer_right_content">4517 Washington Ave. Manchester, Kentucky 39495</p>
+            </div>
+
+          </div>
+
+
+
+          <div class="border_line">
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <button id="scrollBtn" onclick="topFunction()" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+  <!-- FOOTER SECTION END -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!-- jQuery first, then Bootstrap JS, then Slick JS -->
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- slick  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+
+
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("scrollBtn").style.display = "block";
+      } else {
+        document.getElementById("scrollBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+
+</html>

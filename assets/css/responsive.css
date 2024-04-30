@@ -1,0 +1,1059 @@
+@media screen and (max-width: 1420px) {}
+
+
+@media screen and (max-width: 1024px) {
+
+  .hero_head {
+    font-size: 64px;
+    margin-bottom: 500px;
+    left: 0px;
+    line-height: 120%;
+  }
+
+  .hero_cercle_parent.position-absolute {
+    padding-left: 390px;
+
+  }
+
+  .about_me_right_side {
+    padding-left: 20px;
+  }
+
+  .about_me_pera {
+    font-size: 13px;
+  }
+
+  .about_me_left_heading {
+
+    font-size: 35px;
+    line-height: 137%;
+    margin-bottom: 30px;
+  }
+
+  .service_offer_head {
+
+    font-size: 55px;
+
+    line-height: 115%;
+
+  }
+
+  .service_offer_right_side {
+    padding-left: 30px;
+  }
+
+  .service_offer_pera {
+    padding-bottom: 200px;
+  }
+
+  .project_child_one {
+    padding: 22px 20px 10px 0px;
+  }
+
+  .project_child_tow {
+
+    padding: 20px 20px 10px 19px;
+
+  }
+
+  .project_child_three {
+
+    padding: 20px 20px 10px 20px;
+
+  }
+
+  .ptb {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
+  .recent_arrow_blue {
+    margin-bottom: 20px;
+  }
+
+  .recent_arrow_green {
+    margin-bottom: 20px;
+  }
+
+  .recent_arrow_yellow {
+    margin-bottom: 20px;
+  }
+
+  .recent_arrow_purple {
+    margin-bottom: 20px;
+  }
+
+  .portfolio_pera {
+    font-size: 17px;
+    line-height: 142%;
+    padding-top: 10px;
+    padding-bottom: 3px;
+  }
+
+  .portfolio_head {
+
+    line-height: 115%;
+    padding-top: 20px;
+  }
+
+  .service_items_child {
+
+    gap: 20px;
+  }
+
+  .my_expertise_items_pera {
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+
+  .service_items_child {
+    padding: 30px 30px 30px 30px;
+  }
+
+  .my_expertise_head {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .colam_parent {
+    margin-bottom: 70px;
+  }
+
+  .trusted_parent h3 {
+    font-size: 55px;
+    margin-bottom: 30px;
+  }
+
+  .trusted {
+    padding-bottom: 45px;
+  }
+
+  .testimonial_parent h3 {
+    font-size: 55px;
+    margin-bottom: 40px;
+  }
+
+  .test_items_child {
+
+    padding: 15px;
+
+  }
+
+  .testimonial_pera {
+    font-size: 16px;
+
+  }
+
+  .mySliderFile {
+    margin-bottom: 80px;
+  }
+
+  .book_a_call_head {
+    margin-top: 50px;
+    font-size: 55px;
+
+  }
+
+  .book_a_call_left_side_parent img {
+    position: absolute;
+    top: 0px;
+    left: -10px;
+  }
+
+  .book_a_call_right_side {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+  }
+
+  #book {
+
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .book {
+
+    font-size: 14px;
+  }
+
+  .book_a_call {
+    margin-bottom: 80px;
+  }
+
+  .footer_pera {
+    font-size: 16px;
+    line-height: 130%;
+
+  }
+
+  .footer_right_head {
+    font-size: 27px;
+
+  }
+
+  .footer_head {
+    font-size: 42px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+  }
+
+  .footer_items li a {
+
+    font-size: 16px;
+  }
+
+  .footer_items li {
+    margin-bottom: 5px;
+  }
+
+  .footer_right_content {
+    font-size: 16px;
+  }
+
+  .border_line {
+    margin-top: 40px;
+
+  }
+
+  .footer_wrapper {
+    margin-bottom: 50px;
+  }
+
+  .section_padding {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .hero_head {
+    font-size: 54px;
+    margin-bottom: 762px;
+    left: 0;
+  }
+
+  .hero_right_side_head {
+
+    margin-top: 30px;
+  }
+
+  .top_btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+
+  .hero_right_side_btn {
+    margin-bottom: 20px;
+  }
+
+  .marqueeContainer p {
+    padding-top: 15px;
+  }
+
+  .section_padding {
+    padding-top: 50px;
+
+  }
+
+  .about_me_right_side {
+    padding-left: 0px;
+
+
+  }
+
+  .info_parent {
+    padding-right: 300px;
+  }
+
+  .ptb {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .service_offer_head {
+    font-size: 55px;
+
+  }
+
+  .service_offer_pera {
+    padding-bottom: 40px;
+  }
+
+  .service_offer_right_side {
+    margin-top: 30px;
+  }
+
+  li.service_items_childs {
+
+    padding-bottom: 15px;
+  }
+
+  .service_right_pera {
+
+    line-height: 140%;
+
+    padding-top: 50px;
+  }
+
+  .service_items {
+
+    padding-bottom: 10px;
+
+  }
+
+  .portfolio_right_content_side {
+
+    margin-left: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  .portfolio_left_content_side {
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  .my_expertise_head {
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .my_expertise_items_pera {
+    font-size: 13px;
+    padding-right: 0px;
+  }
+
+  .service_items_child {
+    padding: 10px;
+  }
+
+  .service_items_child {
+
+    gap: 5px;
+  }
+
+  .service_forth_heading {
+
+    font-size: 30px;
+
+    line-height: 130%;
+  }
+
+
+  .service_icon_parent {
+    width: 80px;
+    height: 80px;
+  }
+
+
+  .test_items_child {
+
+    padding: 10px;
+  }
+
+
+  .testimonial_pera {
+    font-size: 12px;
+    line-height: 26.4px;
+
+  }
+
+  .book_a_call_left_side_parent img {
+    position: unset;
+    top: 52px;
+    left: -10px;
+  }
+
+  .trusted {
+    padding-bottom: 50px;
+  }
+
+
+  .book_a_call_head {
+    margin-top: 40px;
+  }
+
+  .book_a_call_right_side {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .book_a_call {
+    margin-bottom: 50px;
+
+  }
+
+  .footer_items {
+    padding-left: 0px;
+  }
+
+  .footer_wrapper {
+    margin-bottom: 50px;
+  }
+
+  .border_line {
+    margin-top: 20px;
+
+  }
+
+  .icon_parent {
+    width: 80px;
+    height: 80px;
+
+  }
+
+  .recent_arrow_green {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+
+  }
+
+  .recent_arrow_blue {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+
+  }
+
+  .recent_arrow_yellow {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+
+  }
+
+  .recent_arrow_purple {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    gap: 0px;
+  }
+
+  .top_btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+  }
+
+  .hero_right_side_head {
+    margin-top: 20px;
+    font-size: 32px;
+
+  }
+
+  .btn_secondary {
+
+    width: 150px;
+    height: 41px;
+
+  }
+
+  .btn.btn_primary {
+
+    width: 130px;
+    height: 35px;
+    padding: 10px;
+
+  }
+
+  .btn_white_txt {
+    font-size: 10px;
+
+  }
+
+  .marqueeContainer p {
+    font-size: 24px;
+    padding-top: 18px;
+  }
+
+  .trusted_img_group {
+    height: 128px;
+
+  }
+
+  .testimonial_pera {
+    line-height: 24.645px;
+  }
+
+  .test_child_pera_one {
+
+    font-size: 12.322px;
+
+    padding-top: 7px;
+  }
+
+  .mySliderFile {
+    margin-bottom: 50px;
+  }
+
+
+
+  .test_child_pera_two {
+    font-size: 14.463px;
+    line-height: 9.49px;
+  }
+
+  .section_padding {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .about_me_left_heading {
+    font-size: 28px;
+  }
+
+  .service_offer_pera {
+
+    font-size: 14px;
+    margin-top: 0px;
+  }
+
+  .info_parent {
+    justify-content: start;
+
+    gap: 24px;
+  }
+
+  .project_number {
+    font-size: 32px;
+  }
+
+  .portfolio_pera {
+    font-size: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+  }
+
+  .portfolio_right_content_side {
+
+    margin-left: 0px;
+  }
+
+  .btn_purple_txt {
+    font-size: 10px;
+  }
+
+  .recent_arrow_purple {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ms-auto {
+    margin-left: 0px !important;
+
+  }
+
+  .service_items_child {
+    padding: 0;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+
+  .my_expertise_head {
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+
+  .service_offer_pera {
+    padding-bottom: 30px;
+  }
+
+  .about_me_pera {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+
+  .about_me_right_side {
+    padding-left: 0px;
+  }
+
+
+  .about_me_right_heading {
+    font-size: 32px;
+    line-height: 100%;
+  }
+
+  .my_expertise_items_pera {
+
+    padding-right: 0px;
+    font-size: 8px;
+  }
+
+  .service_forth_heading {
+    font-size: 11px;
+  }
+
+  .about_me_right_pera {
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+
+
+  .projects_group_parent {
+    flex-direction: column;
+  }
+
+  .project_child_one {
+    margin-top: 20px;
+    border-top-left-radius: 50px;
+    border-left: 1px solid gray;
+    padding: 30px 10px 10px 0px;
+  }
+
+  .project_child_two {
+    margin-top: 20px;
+  }
+
+  .project_child_three {
+    border-top-right-radius: 50px;
+    border-right: 1px solid gray;
+  }
+
+  .forth_heading {
+    padding-top: 30px;
+    font-size: 32px;
+  }
+
+  .service_right_pera {
+    font-size: 14px;
+  }
+
+  img {
+    vertical-align: super;
+  }
+
+  .icon_parent {
+    width: 50px;
+    height: 50px;
+  }
+
+
+  .service_icon_parent {
+    width: 50px;
+    height: 50px;
+  }
+
+  .service_icon_parent img {
+    width: 36px;
+  }
+
+  .trusted {
+    padding-bottom: 5px;
+  }
+
+
+  .testimonial_parent h3 {
+    font-size: 42px;
+    margin-bottom: 30px;
+  }
+
+  .icon_parent img {
+    width: 16px;
+  }
+
+  li.service_items_childs {
+    padding-bottom: 10px;
+  }
+
+  .service_items {
+    padding-bottom: 0px;
+  }
+
+  .colam_parent {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #F2F2F2;
+    padding-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  .portfolio_left_content_side {
+    padding-left: 5px;
+
+  }
+
+  .btn_blue_txt {
+    font-size: 12px;
+  }
+
+  .recent_arrow_yellow {
+    width: 50px;
+    height: 50px;
+  }
+
+  .portfolio_head {
+    font-size: 32px;
+    margin-bottom: 12px;
+
+  }
+
+  .recent_arrow_blue {
+    width: 50px;
+    height: 50px;
+  }
+
+  .portfolio_right_content_side {
+    /* margin-bottom: 20px; */
+  }
+
+  .portfolio_right_content_side {
+    margin-left: 20px;
+    padding-bottom: 0px;
+  }
+
+  .portfolio_left_content_side {
+
+    padding-bottom: 0px;
+  }
+
+  .btn_green_txt {
+    font-size: 10px;
+  }
+
+  .recent_arrow_green {
+    width: 50px;
+    height: 50px;
+
+  }
+
+  .btn_yellow_txt {
+    font-size: 10px;
+  }
+
+  .hero_cercle_parent.position-absolute {
+    padding-left: 0px;
+  }
+
+  .hero_head {
+    font-size: 40px;
+    margin-bottom: 438px;
+    left: 0px;
+  }
+
+  .hero_left_side {
+    margin-top: 50px;
+  }
+
+  .hero_right_pera {
+    font-size: 14px;
+  }
+
+  .ptb {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .service_offer_head {
+    font-size: 35px;
+  }
+
+  .testimonial_items_parent {
+    padding: 10px;
+  }
+
+  .testimonial_items_parent {
+
+    margin-right: 5px;
+
+  }
+
+  .testimonial_pera {
+    font-size: 12px;
+  }
+
+  .hero_right_side_btn {
+
+    margin-bottom: 20px;
+  }
+
+  .trusted_parent {
+    padding-top: 0px;
+
+  }
+
+  .trusted_parent h3 {
+    font-size: 39px;
+    margin-bottom: 20px;
+  }
+
+
+
+  .recent_arrow_blue {
+
+    margin-left: 0px;
+  }
+
+  /* .trusted_img_group {
+    flex-direction: column;
+    gap: 30px;
+  } */
+
+  .trusted_img_group .img {
+    width: 50%;
+    height: 40%;
+    gap: 5px;
+  }
+
+  .testimonial_parent h3 {
+    padding-top: 15px;
+    font-size: 36px;
+  }
+
+  .test_items_child {
+    padding: 0px;
+  }
+
+  .book_a_call_head {
+    margin-top: 30px;
+    font-size: 38px;
+
+
+  }
+
+  .book_a_call_left_side_parent img {
+    position: unset;
+
+    top: 10px;
+    left: 0px;
+  }
+
+  .book_a_call_right_side {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  #book {
+    padding: 0px;
+
+    padding-bottom: 10px;
+
+    font-size: 13px;
+
+    font-family: Inter;
+
+  }
+
+  .book {
+    font-size: 10px;
+    padding-left: 5px;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    padding-left: 5px;
+    padding-top: 5px;
+    line-height: 13px;
+
+    font-size: 15px;
+  }
+
+
+
+  .book_a_call {
+
+    margin-bottom: 50px;
+  }
+
+
+
+  .footer_pera {
+    font-size: 16px;
+  }
+
+  .footer_head {
+    font-size: 30px;
+    margin-top: 7px;
+  }
+
+  .footer_head {
+    margin-bottom: 5px;
+
+  }
+
+  .footer_bottom {
+    font-size: 12px;
+  }
+
+  .footer_items {
+    padding-left: 0px;
+  }
+
+  .footer_items li {
+    margin-bottom: 5px;
+  }
+
+  .footer_items li a {
+    font-size: 13px;
+  }
+
+  .footer_right_head {
+    font-size: 20px;
+
+  }
+
+  .org {
+
+    font-size: 20px;
+
+  }
+
+  .footer_right_content {
+    font-size: 13px;
+  }
+
+  .footer_wrapper {
+    margin-bottom: 30px;
+  }
+
+  .border_line {
+    margin-top: 10px;
+  }
+
+  .scrollBtn {
+
+    bottom: 10px;
+    right: 10px;
+  }
+
+  #scrollBtn {
+    right: 5px;
+  }
+
+  .marqueeContainer {
+
+    padding: 0px;
+  }
+
+  .colam_parent {
+    margin-bottom: 30px;
+  }
+
+}
+
+
+@media screen and (max-width: 375px) {
+  .portfolio_left_content_side {
+
+    padding-bottom: 0px;
+  }
+
+  .hero_head {
+    margin-bottom: 393px;
+  }
+
+  .trusted {
+    padding-bottom: 5px;
+  }
+
+  .about_me_pera {
+    font-size: 10px;
+
+  }
+
+  .about_me_left_heading {
+    font-size: 24px;
+  }
+
+  .about_me_right_heading {
+    font-size: 28px;
+  }
+
+  .forth_heading {
+
+    font-size: 24px;
+  }
+
+  .service_right_pera {
+    font-size: 12px;
+  }
+
+  .about_me_info {
+    font-size: 20px;
+
+  }
+
+  .portfolio_head {
+    font-size: 25px;
+    line-height: 135%;
+
+  }
+
+  .service_right_pera {
+    line-height: 140%;
+    padding-top: 10px;
+  }
+
+  .forth_heading {
+    padding-top: 10px;
+
+  }
+
+  .service_offer_right_side {
+    padding-left: 5px;
+  }
+
+  .portfolio_left_content_side {
+
+    padding-bottom: 0px;
+  }
+
+  .portfolio_right_content_side {
+
+    padding-bottom: 0px;
+  }
+
+
+
+
+  .service_forth_heading {
+    font-size: 8px;
+  }
+
+  .my_expertise_items_pera {
+    font-size: 7px;
+  }
+
+  .trusted_parent h3 {
+    padding-top: 20px;
+    font-size: 34px;
+  }
+
+  .testimonial_pera {
+    font-size: 10px;
+  }
+
+  .footer_pera {
+    font-size: 13px;
+  }
+
+  .footer_right_content {
+
+    padding-left: 5px;
+  }
+
+}
