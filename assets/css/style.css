@@ -192,6 +192,75 @@ ul {
   padding-bottom: 130px;
 }
 
+/* width, height, and color of the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* color of the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background-color: #FF4900;
+}
+
+/* color on the top and bottom of the scrollbar handle */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* corner radius of the scrollbar handle */
+::-webkit-scrollbar-thumb:vertical {
+  border-radius: 12px;
+}
+
+/* corner radius of the scrollbar track */
+::-webkit-scrollbar-track:horizontal {
+  border-radius: 12px;
+}
+
+
+
+/*............ FOR BUTTON ANIMATION........... */
+
+.lets_btn {
+  box-shadow: inset 0 0 0 0 white;
+  -webkit-transition: ease-out 0.6s;
+}
+
+.lets_btn:hover {
+  transition: 0.6s ease-in-out;
+  box-shadow: inset 400px 50px 0 0;
+}
+
+
+.orange_btn {
+  box-shadow: inset 0 0 0 0 black;
+  -webkit-transition: ease-out 0.6s;
+
+}
+
+.orange_btn:hover {
+  transition: 0.6s ease-in-out;
+  box-shadow: inset 400px 50px 0 0;
+
+
+}
+
+
+.dark_btn {
+  box-shadow: inset 0 0 0 0 purple;
+  -webkit-transition: ease-out 0.6s;
+}
+
+.dark_btn:hover {
+  transition: 0.6s ease-in-out;
+  box-shadow: inset 400px 50px 0 0;
+}
+
+
+
+
+/*............ FOR BUTTON ANIMATION........... */
 
 /* ......common css end........ */
 
@@ -703,6 +772,70 @@ li.service_items_childs {
 
 .icon_parent:hover {
   background-color: #FF4900;
+}
+
+
+.service_section:before {
+  position: absolute;
+  content: '';
+  height: 440px;
+  width: 440px;
+  border-radius: 440px;
+  background: #FF4900;
+  filter: blur(100px);
+  left: -450px;
+  top: -100px;
+}
+
+
+
+.service_section:after {
+  position: absolute;
+  content: '';
+  height: 440px;
+  width: 440px;
+  border-radius: 440px;
+  background: #FF4900;
+  filter: blur(100px);
+  right: -450px;
+  bottom: -100px;
+}
+
+.service_section {
+  position: relative;
+  overflow-x: clip;
+}
+
+.make_the_design_section {
+  position: relative;
+  overflow-x: clip;
+
+}
+
+.make_the_design_section:before {
+  position: absolute;
+  content: '';
+  height: 440px;
+  width: 440px;
+  border-radius: 440px;
+  background: #FF4900;
+  filter: blur(100px);
+  left: -450px;
+  top: -100px;
+}
+
+
+
+.make_the_design_section:after {
+  position: absolute;
+  content: '';
+  height: 440px;
+  width: 440px;
+  border-radius: 440px;
+  background: #FF4900;
+  filter: blur(100px);
+  right: -450px;
+  bottom: -100px;
 }
 
 
@@ -1238,6 +1371,10 @@ li.service_items_childs {
 
 
 /* <!-- FOOTER SECTION START --> */
+.footer {
+  margin-top: 130px;
+}
+
 .footer_pera {
   color: #3C3C3C;
   font-family: Inter;
@@ -1317,6 +1454,8 @@ li.service_items_childs {
 
 .footer_wrapper {
   margin-bottom: 70px;
+
+
 
 }
 
@@ -2330,6 +2469,13 @@ li.service_items_childs {
 
 .contact_hero {
   margin-bottom: 130px;
+
+
+}
+
+.contact_interested {
+  margin-top: -403px;
+  position: relative;
 }
 
 .contact_hero_parent {
@@ -2397,7 +2543,7 @@ li.service_items_childs {
 
 
 .contact_wrapper {
-  background-image: url(../images/contact_hero_bottom_img.png);
+  /* background-image: url(../images/contact_hero_bottom_img.png); */
   background-repeat: no-repeat;
   background-position: left bottom;
 }
@@ -2407,6 +2553,11 @@ li.service_items_childs {
 
 
 /* <!-- I AM INTERESTED SECTION START --> */
+
+.contact_interested {
+  padding-top: 80px;
+  background-color: #F5F5F5;
+}
 
 .interest_head {
   color: #252525;
@@ -2478,5 +2629,103 @@ li.service_items_childs {
 
 /* <!-- I AM INTERESTED SECTION START --> */
 
+
+
+
+.contact_right_side {
+
+  /* padding: 30px; */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  border-radius: var(--Spacing-5, 20px);
+  /* background: #FFF; */
+  /* box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.09); */
+}
+
+.double_box input {
+  background: #F5F5F5;
+
+  width: 100%;
+  height: 68px;
+  padding: 20px;
+
+  /* padding: var(--Spacing-3-5, 14px) var(--Spacing-5, 20px); */
+
+  gap: var(--Spacing-2-5, 10px);
+  border-radius: 6px;
+  border: 1px solid var(--More-Color-Broder, #E6EAE8);
+
+}
+
+.double_box {
+  background: #F5F5F5;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.single_boxes {
+  padding-top: 30px;
+
+}
+
+.single_boxes input {
+  background: #F5F5F5;
+
+
+  width: 100%;
+  padding: var(--Spacing-3-5, 14px) var(--Spacing-5, 20px);
+
+
+  border-radius: 6px;
+  border: 1px solid var(--More-Color-Broder, #E6EAE8);
+
+}
+
+.single_boxes textarea {
+  background: #F5F5F5;
+  margin-bottom: 60px;
+
+  color: var(--Text-Color-Body, #707D8E);
+
+  /* text-lg/font-normal */
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 155.556% */
+  width: 100%;
+  display: flex;
+  height: 125px;
+  padding: var(--Spacing-3-5, 14px) var(--Spacing-5, 20px);
+  align-items: flex-start;
+  gap: var(--Spacing-2-5, 10px);
+  border-radius: 6px;
+  border: 1px solid var(--More-Color-Broder, #E6EAE8);
+}
+
+.contact_btn {
+  margin-bottom: 80px;
+}
+
+.footer_right_parent img {
+  top: 0;
+  right: 0;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer_top_img img {
+  right: 0;
+  position: absolute;
+  margin-top: -370px;
+  z-index: -1;
+}
 
 /* CONTACT PAGE END */
