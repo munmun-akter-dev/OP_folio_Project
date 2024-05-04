@@ -224,6 +224,160 @@
     padding-top: 70px;
     padding-bottom: 50px;
   }
+
+  .skill_right_side_parent img {
+
+    position: unset;
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+  }
+
+  .skill_left_pera {
+
+    font-size: 14px;
+
+  }
+
+  .skill_heading {
+
+    font-size: 42px;
+
+  }
+
+  .skill_left_side_parent {
+
+    margin-bottom: 70px;
+  }
+
+  .work_fr_world_head {
+    margin-top: 50px;
+    margin-bottom: 43px;
+    font-size: 48px;
+  }
+
+  .work_fr_world_top_com {
+    margin-bottom: 80px;
+  }
+
+  .about_marquee_parent {
+    margin-bottom: 0px;
+  }
+
+  .make_the_design {
+    margin-bottom: 35px;
+  }
+
+  .about_marqueeContainer p {
+
+    font-size: 61px;
+
+  }
+
+  .education_exprience_left_side img {
+    max-height: 700px;
+    width: 100%;
+  }
+
+  .explore_right_side_parent {
+    margin-top: 0px;
+  }
+
+  .explore {
+
+    margin-bottom: 50px;
+  }
+
+  .explore_right_side_head {
+
+    font-size: 55px;
+
+
+    line-height: 136%;
+  }
+
+  .make_the_design_left_pera {
+
+    font-size: 13px;
+
+  }
+
+  .make_the_design {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+  }
+
+  .make_the_design_left_side_project {
+
+    gap: 100px;
+    padding-top: 80px;
+  }
+
+  .education_exprience_right_side {
+    margin-top: 30px;
+
+    padding-left: 20px;
+  }
+
+  .edu_exp_content_head {
+
+    font-size: 15px;
+
+    line-height: 130%;
+
+  }
+
+  .award_heading {
+
+    font-size: 33px;
+
+  }
+
+  .award_parent {
+    margin-bottom: 50px;
+  }
+
+  .award_bottom_line {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .award_items_right_head {
+    font-size: 30px;
+  }
+
+  .my_all_service_head {
+    margin-top: 10px;
+
+
+  }
+
+  .my_all_service_section {
+    margin-bottom: 50px;
+  }
+
+
+  .lets_work_head {
+    font-size: 50px;
+
+  }
+
+  .lets_work {
+    margin-bottom: 20px;
+  }
+
+  .lets_work_right_pera {
+    font-size: 16px;
+    line-height: 110%;
+    padding-top: 30px;
+  }
+
+  .footer {
+    margin-top: 0px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -433,6 +587,161 @@
     line-height: 80px;
   }
 
+  .explore {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+
+
+  .explore_right_side_parent {
+    margin-top: 50px;
+  }
+
+  .explore_right_side_head {
+    font-size: 50px;
+  }
+
+  .explore_left_side_parent {
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    gap: 0px;
+  }
+
+  .make_the_design {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+  }
+
+  .make_the_design_left_pera {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .make_the_design_left_side_project {
+    padding-top: 20px;
+
+  }
+
+  .make_the_design_right_side {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .about_marquee_parent {
+    margin-bottom: 10px;
+  }
+
+  .about_marqueeContainer p {
+
+    font-size: 64px;
+
+  }
+
+  .education_exprience_left_side img {
+
+    height: 100%;
+  }
+
+  .education_exprience_right_side {
+    margin-top: 30px;
+
+    padding-left: 20px;
+  }
+
+  .award_parent {
+    margin-bottom: 40px;
+  }
+
+
+  .education_exprience {
+    margin-bottom: 30px;
+  }
+
+  .award_heading {
+
+    font-size: 37px;
+
+    line-height: 130%;
+  }
+
+  .award_bottom_line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .award_items_left_head {
+
+    font-size: 30px;
+
+  }
+
+  .award_items_right_head {
+    font-size: 30px;
+
+  }
+
+  .footer {
+    margin-top: 50px;
+  }
+
+  .skill_right_side_parent img {
+    position: unset;
+    height: 100%;
+    width: 100%;
+  }
+
+  .skill_left_pera {
+
+    font-size: 20px;
+
+    padding-bottom: 0px;
+  }
+
+  .skill_left_side_parent {
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .work_fr_world_head {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    line-height: 130%;
+  }
+
+  .work_fr_world_top_com {
+    margin-bottom: 50px;
+  }
+
+  .my_all_service_head {
+    margin-top: 20px;
+  }
+
+  .my_all_service_section {
+    margin-bottom: 40px;
+  }
+
+  .lets_work_head {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .lets_work_right_side_parent {
+    justify-content: start;
+  }
+
+  .lets_work {
+    margin-bottom: 20px;
+  }
+
+
+
 }
 
 @media screen and (max-width: 425px) {
@@ -476,8 +785,7 @@
   }
 
   .btn_white_txt {
-    font-size: 10px;
-
+    font-size: 12px;
   }
 
   .marqueeContainer p {
@@ -913,6 +1221,7 @@
 
   .footer_right_head {
     font-size: 20px;
+    padding-left: 0px;
 
   }
 
@@ -953,12 +1262,200 @@
     margin-bottom: 30px;
   }
 
-
-
   /* ABOUT PAGE  */
 
+  .explore_right_side_parent {
+    margin-top: 5px;
+  }
+
+  .org_about_me {
+    font-size: 18px;
+
+  }
+
+  .explore_right_side_head {
+    font-size: 37px;
+  }
+
+  .explore_right_side_pera {
+    font-size: 12px;
+  }
+
+  .explore {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .make_the_design {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+  }
+
+  .make_the_design_left_pera {
+    font-size: 12px;
+  }
+
+  .make_the_design_left_side_project {
+
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .make_project_number {
+    font-size: 30px;
+    padding-left: 35px;
+  }
+
+  .make_project_pera {
+    font-size: 12px;
+  }
+
+  .make_the_design_right_side {
+
+    margin-top: 35px;
+  }
+
+  .about_marqueeContainer p {
+
+    font-size: 50px;
+
+  }
+
+  .about_marquee_parent {
+    margin-bottom: -10px;
+  }
+
+  .education_exprience_left_side img {
+    height: 100%;
+  }
 
 
+  .education_exprience_right_side {
+    margin-top: 10px;
+    justify-content: center;
+    padding-left: 10px;
+    flex-direction: column;
+  }
+
+  .experience {
+    padding-left: 0px;
+  }
+
+
+  .edu_ex_head {
+    margin-bottom: 20px;
+  }
+
+  .edu_ex_head {
+
+    font-size: 22px;
+
+  }
+
+  .edu_exp_content_head {
+
+    font-size: 16px;
+
+  }
+
+  .edu_exp_content_pera {
+
+    font-size: 11px;
+
+    padding-left: 5px;
+  }
+
+  .edu_exp_content {
+    margin-bottom: 30px;
+  }
+
+  .education_exprience {
+    margin-bottom: 20px;
+  }
+
+  .award_heading {
+
+    font-size: 24px;
+
+  }
+
+  .award_head {
+
+    font-size: 20px;
+
+  }
+
+  .award_parent {
+    margin-bottom: 20px;
+  }
+
+  .award_items_left_head {
+    font-size: 20px;
+  }
+
+  .award_items_right_head {
+
+
+    font-size: 20px;
+
+  }
+
+  .award_bottom_line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .skill_right_side_parent img {
+    position: unset;
+    width: 100%;
+    height: 100%;
+  }
+
+  .skill_heading {
+
+    font-size: 36px;
+
+  }
+
+  .skill_head {
+    font-size: 20px;
+
+  }
+
+
+  .skill_left_side_parent {
+    padding-top: 35px;
+    margin-bottom: 40px;
+  }
+
+  .skill_left_pera {
+    font-size: 14px;
+    padding-bottom: 3px;
+  }
+
+  .skill_items {
+    margin-top: 30px;
+    padding-bottom: 5px;
+  }
+
+  .work_fr_world_head {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 37px;
+    line-height: 116%;
+  }
+
+  .work_fr_world_top_com {
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    margin-top: 30px;
+  }
 
   /* ABOUT PAGE  */
 
@@ -966,6 +1463,64 @@
 
   /* SERVICE PAGE  */
 
+  .my_all_service_head {
+    margin-top: 7px;
+    font-size: 42px;
+
+  }
+
+
+  .my_all_service_pera {
+    margin-top: 13px;
+    font-size: 14px;
+    padding-bottom: 16px;
+  }
+
+  .my_all_service_img_head {
+
+    font-size: 30px;
+
+  }
+
+  .my_all_service_img_btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .branding_child {
+    padding: 0px 10px 24px 10px;
+  }
+
+  .my_all_service_section {
+    margin-bottom: 20px;
+  }
+
+  .lets_work_head {
+
+    font-size: 30px;
+
+  }
+
+  .lets_work_right_pera {
+
+    font-size: 10px;
+    padding-right: 20px;
+    padding-top: 13px;
+  }
+
+  .lets_work_right_side_btn {
+    padding-top: 0px;
+  }
+
+  .lets_work {
+    margin-bottom: 10px;
+  }
+
+
+  .lets_work_right_side_parent {
+
+    gap: 20px;
+  }
 
 
   /* SERVICE PAGE  */
@@ -1060,9 +1615,6 @@
     padding-bottom: 0px;
   }
 
-
-
-
   .service_forth_heading {
     font-size: 8px;
   }
@@ -1090,6 +1642,7 @@
   }
 
   /* ABOUT PAGE  */
+
 
 
 
