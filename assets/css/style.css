@@ -131,41 +131,6 @@ ul {
   background: #FF4900;
 }
 
-/* .btn_white {
-  display: flex;
-  padding: 10px 40px;
-  justify-content: center;
-  align-items: center;
-  gap: var(--Spacing-2-5, 10px);
-  border-radius: var(--Spacing-20, 80px);
-
-  background: var(--More-Color-White, #FFF);
-  box-shadow: 0px 6px 18px 0px rgba(114, 117, 255, 0.25);
-}
-
-.btn_black {
-  display: flex;
-  padding: 10px 40px;
-  justify-content: center;
-  align-items: center;
-  gap: var(--Spacing-2-5, 10px);
-  border-radius: var(--Spacing-20, 80px);
-  border: none;
-
-  background: black;
-}
-
-.btn_black_with_border {
-  display: flex;
-  padding: 10px 40px;
-  justify-content: center;
-  align-items: center;
-  gap: var(--Spacing-2-5, 10px);
-  border-radius: var(--Spacing-20, 80px);
-  border: 1px solid var(--More-Color-White, #FFF);
-  background: black;
-
-} */
 
 
 
@@ -261,6 +226,78 @@ ul {
 
 
 /*............ FOR BUTTON ANIMATION........... */
+
+
+/* ............IMG ANIMATION............. */
+
+.explore_left_side_parent {
+  max-width: 537px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.explore_left_side_parent img {
+  overflow: hidden;
+  transition: 0.3s ease-in;
+}
+
+.explore_left_side_parent img:hover {
+  transform: scale(1.04);
+}
+
+/* .about_me_left_side {
+  max-width: 537px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.about_me_left_side img {
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.about_me_left_side img:hover {
+  transform: scale(1.04);
+}
+
+.hero_right_side {
+
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.hero_right_side>img:first-child {
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+
+
+}
+
+.hero_right_side img:hover {
+  transform: scale(1.04);
+}
+
+
+.about_img_group {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.about_img_group img {
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.about_img_group img:hover {
+  transform: scale(1.03);
+} */
+
+
+/* ............IMG ANIMATION............. */
 
 /* ......common css end........ */
 
@@ -935,6 +972,7 @@ li.service_items_childs {
   background: #4B89FF;
   border-radius: 50%;
   /* margin-left: 523px; */
+  margin-top: 30px;
 }
 
 .recent_arrow_green {
@@ -945,6 +983,7 @@ li.service_items_childs {
   background: #43C796;
   border-radius: 50%;
   /* margin-left: 523px; */
+
 }
 
 .recent_arrow_yellow {

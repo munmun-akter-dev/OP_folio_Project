@@ -1001,6 +1001,9 @@
 }
 
 @media screen and (max-width: 425px) {
+  .testimonial_pera {
+    font-size: 9px;
+  }
 
   .navbar-light .navbar-nav .nav-link {
     font-size: 14px;
@@ -1049,7 +1052,7 @@
   }
 
   .trusted_img_group {
-    height: 128px;
+    max-height: 100px;
 
   }
 
@@ -1066,6 +1069,11 @@
 
   .mySliderFile {
     margin-bottom: 50px;
+  }
+
+  .trusted_img_group {
+    padding-top: 5px;
+
   }
 
 
@@ -1194,8 +1202,8 @@
   }
 
   .forth_heading {
-    padding-top: 30px;
-    font-size: 32px;
+    padding-top: 15px;
+    font-size: 20px;
   }
 
   .service_right_pera {
@@ -1342,7 +1350,29 @@
   }
 
   .testimonial_pera {
-    font-size: 12px;
+    font-size: 11px;
+  }
+
+  .skill_right_side_parent img {
+    padding-top: 20px;
+  }
+
+  .skill_line_head {
+    font-size: 11px;
+  }
+
+
+  .about_me {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .service_offer_right_side {
+    padding-left: 5px;
+  }
+
+  .service_right_pera {
+    padding-top: 5px;
   }
 
   .hero_right_side_btn {
@@ -1381,7 +1411,7 @@
   }
 
   .test_items_child {
-    padding: 0px;
+    padding: 22px;
   }
 
   .book_a_call_head {
@@ -1570,7 +1600,12 @@
 
   .about_marqueeContainer p {
 
-    font-size: 50px;
+    font-size: 30px;
+
+  }
+
+  .navbar-toggler {
+    padding: 0.1rem .5rem;
 
   }
 
@@ -1647,7 +1682,8 @@
   }
 
   .award_items_right_head {
-    font-size: 20px;
+    font-size: 16px;
+    padding-top: 5px;
   }
 
   .award_bottom_line {
@@ -1665,7 +1701,7 @@
 
   .skill_heading {
 
-    font-size: 36px;
+    font-size: 30px;
 
   }
 
@@ -1693,7 +1729,7 @@
   .work_fr_world_head {
     margin-top: 30px;
     margin-bottom: 20px;
-    font-size: 37px;
+    font-size: 30px;
     line-height: 116%;
   }
 
@@ -1713,26 +1749,45 @@
 
   .my_all_service_head {
     margin-top: 7px;
-    font-size: 42px;
+    font-size: 30px;
 
   }
 
 
   .my_all_service_pera {
     margin-top: 13px;
-    font-size: 14px;
+    font-size: 12px;
     padding-bottom: 16px;
   }
 
   .my_all_service_img_head {
+    font-size: 22px;
+  }
 
-    font-size: 30px;
+  .blog_marqueeContainer p {
+
+    font-size: 20px;
 
   }
 
   .my_all_service_img_btn {
     width: 50px;
     height: 50px;
+  }
+
+  .blog_marqueeContainer {
+    padding: 5px 0;
+  }
+
+  .interest_head {
+
+    font-size: 25px;
+
+  }
+
+  a.navbar-brand img {
+    width: 50%;
+    height: 50%;
   }
 
   .branding_child {
@@ -2024,7 +2079,7 @@
   }
 
   .btn_gray_txt {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .contact_btn {
@@ -2049,6 +2104,14 @@
 @media screen and (max-width: 375px) {
   .contact_hero_head {
     font-size: 24px;
+  }
+
+  .testimonial_pera {
+    font-size: 11px;
+  }
+
+  .test_items_child {
+    padding: 25px;
   }
 
   .portfolio_left_content_side {
@@ -2134,7 +2197,7 @@
   }
 
   .testimonial_pera {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .footer_pera {

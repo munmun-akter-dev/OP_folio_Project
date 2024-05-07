@@ -30,6 +30,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 
@@ -84,7 +85,7 @@
 
   <!-- EXPLORE SECTION START -->
 
-  <section class="explore">
+  <section class="explore" style="overflow-x: hidden;">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
@@ -465,12 +466,14 @@
 
   <!-- EDUCATION EXPRIENCE SECTION START -->
 
-  <section class="education_exprience">
+  <section class="education_exprience" style="overflow-x: hidden;">
     <div class="container">
       <div class="row ">
         <div class="col-lg-6">
           <div class="education_exprience_left_side">
-            <img class="img-fluid w-100 " src="./assets/images/education_exprience_left_img.png" alt="">
+            <img class="img-fluid w-100 " src="./assets/images/education_exprience_left_img.png" alt=""
+              data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400"
+              data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
 
 
           </div>
@@ -725,7 +728,7 @@
 
   <!-- SKILL SECTION START -->
 
-  <section class="skill_expertise">
+  <section class="skill_expertise" style="overflow-x: hidden;">
     <div class="container">
       <div class="row">
 
@@ -820,7 +823,9 @@
 
         <div class="col-lg-7">
           <div class="skill_right_side_parent">
-            <img class="" src="./assets/images/my_expertise_right_img.png" alt="">
+            <img class="" src="./assets/images/my_expertise_right_img.png" alt="" data-aos="fade-left"
+              data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400" data-aos-easing="ease-in-out"
+              data-aos-mirror="true" data-aos-once="false">
           </div>
 
         </div>
@@ -836,7 +841,7 @@
 
 
   <!-- WORK FOR WORLD TOP COMPANY SECTION START -->
-  <section class="work_fr_world_top_com">
+  <section class="work_fr_world_top_com" style="overflow-x: hidden;">
     <div class="container">
       <div class="row">
         <div class="work_fr_world_parent">
@@ -1192,6 +1197,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  <script>
+    AOS.init();
+  </script>
 
   <!-- slick  -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
