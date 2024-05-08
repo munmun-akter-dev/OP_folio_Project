@@ -156,8 +156,10 @@
 
   .book_a_call_left_side_parent img {
     position: absolute;
-    top: 0px;
-    left: -10px;
+    top: 117px;
+    left: -24px;
+    width: 45%;
+    height: 86%;
   }
 
   .book_a_call_right_side {
@@ -271,7 +273,7 @@
 
   .about_marqueeContainer p {
 
-    font-size: 61px;
+    font-size: 55px;
 
   }
 
@@ -509,9 +511,29 @@
     gap: 12px;
   }
 
+  .make_the_right_head {
+
+    font-size: 42px;
+
+    font-weight: 600;
+    line-height: 120%;
+
+    top: 160px;
+    right: 26px;
+    text-align: start;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
+
+  .make_the_right_head {
+    font-size: 50px;
+    top: 226px;
+
+  }
+
+
 
   .hero_head {
     font-size: 54px;
@@ -651,6 +673,7 @@
     position: unset;
     top: 52px;
     left: -10px;
+    width: 100%;
   }
 
   .trusted {
@@ -1003,6 +1026,11 @@
 @media screen and (max-width: 425px) {
   .testimonial_pera {
     font-size: 9px;
+  }
+
+  .my_expertise_items_pera {
+    padding-top: 5px;
+
   }
 
   .navbar-light .navbar-nav .nav-link {
@@ -1423,7 +1451,7 @@
 
   .book_a_call_left_side_parent img {
     position: unset;
-
+    width: 100%;
     top: 10px;
     left: 0px;
   }
@@ -2082,6 +2110,13 @@
     font-size: 12px;
   }
 
+  .make_the_right_head {
+    font-size: 30px;
+    top: 231px;
+    right: 0;
+    text-align: center;
+  }
+
   .contact_btn {
     margin-bottom: 30px;
   }
@@ -2102,6 +2137,13 @@
 
 
 @media screen and (max-width: 375px) {
+
+  .make_the_right_head {
+
+    top: 199px;
+
+  }
+
   .contact_hero_head {
     font-size: 24px;
   }
