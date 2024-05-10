@@ -246,57 +246,6 @@ ul {
   transform: scale(1.04);
 }
 
-/* .about_me_left_side {
-  max-width: 537px;
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-
-.about_me_left_side img {
-  overflow: hidden;
-  transition: 0.3s ease-in-out;
-}
-
-.about_me_left_side img:hover {
-  transform: scale(1.04);
-}
-
-.hero_right_side {
-
-  margin: 0 auto;
-
-  position: relative;
-}
-
-.hero_right_side>img:first-child {
-  overflow: hidden;
-  transition: 0.3s ease-in-out;
-
-
-}
-
-.hero_right_side img:hover {
-  transform: scale(1.04);
-}
-
-
-.about_img_group {
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.about_img_group img {
-  overflow: hidden;
-  transition: 0.3s ease-in-out;
-}
-
-.about_img_group img:hover {
-  transform: scale(1.03);
-} */
-
-
 /* ............IMG ANIMATION............. */
 
 /* ......common css end........ */
@@ -345,7 +294,7 @@ ul {
   color: #FFF;
   text-align: center;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -489,6 +438,7 @@ ul {
   color: #FFFFFF;
   font-size: 40px;
   margin-top: 10px;
+  font-family: 'Syne';
 }
 
 .marquee {
@@ -896,6 +846,16 @@ li.service_items_childs {
 
 /* PRORTFOLIO SECTION START */
 
+.port_orng_head {
+  color: #FF4900;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  padding-bottom: 40px;
+}
+
 .colam_parent {
   /* width: 1420px; */
   /* height: 603px; */
@@ -984,7 +944,7 @@ li.service_items_childs {
   height: 90px;
   line-height: 95px;
   /* padding: 1px 0 0 0px; */
-  background: #4B89FF;
+  background: #5A3EEE;
   border-radius: 50%;
   /* margin-left: 523px; */
   margin-top: 30px;
@@ -995,7 +955,7 @@ li.service_items_childs {
   height: 90px;
   line-height: 95px;
   /* padding: 1px 0 0 0px; */
-  background: #43C796;
+  background: #EF9127;
   border-radius: 50%;
   /* margin-left: 523px; */
 
@@ -1007,7 +967,7 @@ li.service_items_childs {
   height: 90px;
   line-height: 95px;
   /* padding: 1px 0 0 0px; */
-  background: #FFB822;
+  background: #5A3EEE;
   border-radius: 50%;
   /* margin-left: 523px; */
   text-align: center;
@@ -1020,7 +980,7 @@ li.service_items_childs {
   height: 90px;
   line-height: 95px;
   /* padding: 1px 0 0 0px; */
-  background: #BA29EE;
+  background: #EF9127;
   border-radius: 50%;
   /* margin-left: 523px; */
   text-align: center;

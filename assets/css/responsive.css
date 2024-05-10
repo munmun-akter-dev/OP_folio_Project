@@ -1071,7 +1071,7 @@
   }
 
   .btn_white_txt {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .marqueeContainer p {
@@ -2132,6 +2132,21 @@
 
 
   /* CONTACT PAGE  */
+
+  .port_orng_head {
+
+    font-size: 36px;
+
+  }
+
+  .port_orng_head {
+
+    padding-bottom: 0px;
+  }
+
+  .port_upr_head img {
+    width: 60px;
+  }
 
 }
 
