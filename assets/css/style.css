@@ -856,6 +856,12 @@ li.service_items_childs {
   padding-bottom: 40px;
 }
 
+.port_upr_head img {
+  width: 10%;
+  padding-left: 40px;
+  height: 72%;
+}
+
 .colam_parent {
   /* width: 1420px; */
   /* height: 603px; */
