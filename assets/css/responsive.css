@@ -3,15 +3,71 @@
 
 @media screen and (max-width: 1024px) {
 
+  h2.hero_head.position-absolute {
+    top: -3%;
+    font-size: 70px;
+
+  }
+
+  .trusted_parent {
+    padding-top: 70px;
+
+  }
+
+  .portfolio_left_img_side {
+    margin-top: 79px;
+  }
+
+  .portfolio_right_img_side {
+    margin-top: 40px;
+  }
+
+  .service_section:before {
+
+    top: 0px;
+  }
+
+  .service_section:after {
+
+    bottom: 0px;
+  }
+
+  .about_me {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
   .hero_head {
-    font-size: 64px;
+    font-size: 70px;
     margin-bottom: 500px;
-    left: 0px;
+    left: 46px;
     line-height: 120%;
+    top: -3%;
+  }
+
+  .hero_left_side {
+
+    padding-left: 0px;
   }
 
   .hero_cercle_parent.position-absolute {
-    padding-left: 390px;
+    right: 80px;
+
+  }
+
+  .service_offer_head {
+    margin-top: 40px;
+  }
+
+  .hero_right_side_head {
+
+    font-size: 38px;
+
+  }
+
+  .hero_right_pera {
+
+    font-size: 12px;
 
   }
 
@@ -180,7 +236,7 @@
   }
 
   .book_a_call {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
 
   .footer_pera {
@@ -532,6 +588,29 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .service_offer {
+    padding-top: 0px;
+  }
+
+  .colam_parent {
+    padding-top: 0px;
+  }
+
+  .portfolio_left_img_side {
+    margin-top: 43px;
+  }
+
+  .hero_head {
+    top: -2%;
+  }
+
+  .hero_left_side {
+    margin-top: 20px;
+    position: unset;
+    padding-left: 0px;
+  }
+
 
   .port_upr_head img {
     width: 17%;
@@ -1037,6 +1116,16 @@
 }
 
 @media screen and (max-width: 425px) {
+
+  .portfolio_left_img_side {
+    margin-top: 0px;
+
+  }
+
+  .portfolio_left_img_side {
+    margin-top: 0px;
+  }
+
   .testimonial_pera {
     font-size: 9px;
   }
@@ -1084,7 +1173,7 @@
   }
 
   .btn_white_txt {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .marqueeContainer p {
@@ -1293,8 +1382,8 @@
   }
 
   .colam_parent {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     flex-shrink: 0;
     border-radius: 12px;
     background: #F2F2F2;
@@ -1330,7 +1419,7 @@
 
 
   .portfolio_right_content_side {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     padding-bottom: 0px;
   }
 
@@ -1358,9 +1447,21 @@
   }
 
   .hero_head {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 438px;
     left: 0px;
+  }
+
+  .hero_left_side {
+    margin-top: 20px;
+    position: unset;
+    padding-left: 0px;
+  }
+
+  .hero_head {
+
+    top: -9%;
+
   }
 
   .hero_left_side {
@@ -2165,6 +2266,11 @@
 
 
 @media screen and (max-width: 375px) {
+  .hero_head {
+
+    top: -11%;
+
+  }
 
   .make_the_right_head {
 

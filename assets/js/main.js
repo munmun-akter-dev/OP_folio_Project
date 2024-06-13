@@ -27,6 +27,8 @@
 // });
 
 $(document).ready(function(){
+
+  
   $('.mySliderFile').slick({
     infinite:true,
     slidesToShow: 3,
