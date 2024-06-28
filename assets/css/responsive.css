@@ -1,4 +1,9 @@
-@media screen and (max-width: 1420px) {}
+@media screen and (max-width: 1440px) {
+  .book_a_call_left_side_parent img {
+    left: -25px;
+
+  }
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -592,6 +597,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .service_offer_right_side {
+    padding-left: 0;
+  }
+
 
   .play_img {
     bottom: 185px;
@@ -682,7 +691,19 @@
   }
 
   .service_offer_head {
-    font-size: 55px;
+    font-size: 48px;
+
+  }
+
+  .forth_heading {
+
+    font-size: 36px;
+
+  }
+
+  .portfolio_head {
+
+    font-size: 36px;
 
   }
 
@@ -702,8 +723,7 @@
   .service_right_pera {
 
     line-height: 140%;
-
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   .service_items {
@@ -753,10 +773,38 @@
 
 
   .service_icon_parent {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
   }
 
+  .service_icon_parent img {
+    width: 50%;
+  }
+
+  .my_expertise_head {
+    font-size: 47px;
+  }
+
+  .trusted_parent h3 {
+    font-size: 45px;
+
+  }
+
+  .testimonial_parent h3 {
+    font-size: 45px;
+
+  }
+
+  .book_a_call_head {
+    margin-top: 40px;
+    font-size: 48px;
+  }
+
+  .about_me_right_heading {
+
+    font-size: 42px;
+
+  }
 
   .test_items_child {
 
@@ -809,37 +857,43 @@
 
   }
 
+  .port_orng_head {
+
+    font-size: 50px;
+
+  }
+
   .icon_parent {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 
   }
 
   .recent_arrow_green {
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
 
   }
 
   .recent_arrow_blue {
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
 
   }
 
   .recent_arrow_yellow {
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
 
   }
 
   .recent_arrow_purple {
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
   }
 
   .explore {
